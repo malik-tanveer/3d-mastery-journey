@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>WebGL — Triangle</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      background: #0b0b0d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    canvas {
+      width: 800px;
+      height: 600px;
+      border: 1px solid #222;
+      display: block;
+    }
+
+    .info {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      color: #ddd;
+      font-family: system-ui, Segoe UI, Roboto;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="info">WebGL Triangle — press R/G/B to change color</div>
+  <canvas id="glcanvas" width="800" height="600"></canvas>
+</body>
+
+<script src="App.js"></script>
+
+</html>

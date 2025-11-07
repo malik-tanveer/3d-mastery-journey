@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>WebGL — Coordinate Axes (Perspective)</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            background: #0b0b0d;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        canvas {
+            width: 900px;
+            height: 600px;
+            border: 1px solid #222;
+            display: block;
+        }
+
+        .info {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: #ddd;
+            font-family: system-ui;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="info">X:red, Y:green, Z:blue — drag mouse to orbit camera</div>
+    <canvas id="gl" width="900" height="600"></canvas>
+</body>
+<script src="main.js"></script>
+
+</html>
